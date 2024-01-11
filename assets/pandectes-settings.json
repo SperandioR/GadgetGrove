@@ -1,11 +1,11 @@
 {
   "store": {
-    "plan": null,
+    "plan": "basic",
     "theme": "GadgetGrove\/main",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1705001065,
+  "tsPublished": 1705001140,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -365,7 +365,7 @@
     "showPoweredBy": false,
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
-    "isActive": false,
+    "isActive": true,
     "implicitSavePreferences": false,
     "cookieIcon": false,
     "blockBots": false,
@@ -378,19 +378,210 @@
   },
   "cookies": {
     "0": [
-
+      {
+        "name": "keep_alive",
+        "domain": "5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Used in connection with buyer localization."
+        }
+      },
+      {
+        "name": "secure_customer_sig",
+        "domain": "5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Used in connection with customer login."
+        }
+      },
+      {
+        "name": "_cmp_a",
+        "domain": ".5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 day(s)",
+        "expires": 1,
+        "unit": "declSession",
+        "purpose": {
+          "en": "Used for managing customer privacy settings."
+        }
+      },
+      {
+        "name": "localization",
+        "domain": "5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Shopify store localization"
+        }
+      }
     ],
     "1": [
 
     ],
     "2": [
-
+      {
+        "name": "_shopify_y",
+        "domain": ".5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "en": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "en": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "en": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_boomr_clss",
+        "domain": "https:\/\/5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": "Used to monitor and optimize the performance of Shopify stores."
+        }
+      }
     ],
     "4": [
-
+      {
+        "name": "wpm-domain-test",
+        "domain": "com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": "Used to test the storage of parameters about products added to the cart or payment currency"
+        }
+      },
+      {
+        "name": "wpm-domain-test",
+        "domain": "myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": "Used to test the storage of parameters about products added to the cart or payment currency"
+        }
+      },
+      {
+        "name": "wpm-domain-test",
+        "domain": "5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "en": "Used to test the storage of parameters about products added to the cart or payment currency"
+        }
+      }
     ],
     "8": [
-
+      {
+        "name": "local-storage-test",
+        "domain": "https:\/\/5d8dff.myshopify.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "en": ""
+        }
+      }
     ]
   },
   "blocker": {
