@@ -5,18 +5,18 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text_jnkRCm": {
-          "type": "text",
-          "settings": {
-            "heading": "<strong>INFO<\/strong>",
-            "subtext": "<p><a href=\"\/pages\/contact\" title=\"Contato\">Contact<\/a><\/p><p><a href=\"\/pages\/ccpa-opt-out\" target=\"_blank\" title=\"Do not sell or share my personal information\">Do not sell or share my personal information<\/a><\/p><p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a><\/p>"
-          }
-        },
         "link_list_43LNpd": {
           "type": "link_list",
           "settings": {
             "heading": "<strong>Quick links<\/strong>",
             "menu": "footer"
+          }
+        },
+        "text_jnkRCm": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>INFO<\/strong>",
+            "subtext": "<p><a href=\"\/pages\/contact\" title=\"Contato\">Contact<\/a><\/p><p><a href=\"\/pages\/ccpa-opt-out\" target=\"_blank\" title=\"Do not sell or share my personal information\">Do not sell or share my personal information<\/a><\/p><p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a><\/p>"
           }
         },
         "image_zMz67H": {
@@ -29,8 +29,8 @@
         }
       },
       "block_order": [
-        "text_jnkRCm",
         "link_list_43LNpd",
+        "text_jnkRCm",
         "image_zMz67H"
       ],
       "settings": {
