@@ -4,5 +4,17 @@
     "market": "br"
   },
   "sections": {
-  }
+    "product-grid": {
+      "settings": {
+        "image_ratio": "portrait",
+        "show_rating": true
+      },
+      "blocks": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid"
+  ]
 }
