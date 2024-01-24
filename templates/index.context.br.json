@@ -1,1 +1,16 @@
-{"parent":"index.json","context":{"market":"br"},"sections":{}}
+{
+  "parent": "index.json",
+  "context": {
+    "market": "br"
+  },
+  "sections": {
+    "collection_list_WPR4Gq": {
+      "settings": {
+        "columns_desktop": 4,
+        "columns_mobile": "2"
+      },
+      "blocks": {
+      }
+    }
+  }
+}
