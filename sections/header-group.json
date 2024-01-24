@@ -8,7 +8,7 @@
         "announcement_K6dQpi": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Ofertas Relâmpago",
             "link": ""
           }
         }
@@ -17,7 +17,7 @@
         "announcement_K6dQpi"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,

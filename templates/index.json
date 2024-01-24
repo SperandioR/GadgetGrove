@@ -94,6 +94,7 @@
         },
         "featured_collection_WzEVE8": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
