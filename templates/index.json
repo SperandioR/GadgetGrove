@@ -83,6 +83,12 @@
         "featured_collection_TT6qaY": {
           "type": "featured_collection",
           "settings": {
+            "collection": "carnaval"
+          }
+        },
+        "featured_collection_TCwmcG": {
+          "type": "featured_collection",
+          "settings": {
             "collection": ""
           }
         },
@@ -91,29 +97,22 @@
           "settings": {
             "collection": ""
           }
-        },
-        "featured_collection_TCwmcG": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "featured_collection_TT6qaY",
-        "featured_collection_WzEVE8",
-        "featured_collection_TCwmcG"
+        "featured_collection_TCwmcG",
+        "featured_collection_WzEVE8"
       ],
       "settings": {
-        "title": "Coleção de Carnaval",
+        "title": "Coleções",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
